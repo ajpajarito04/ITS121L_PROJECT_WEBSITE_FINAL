@@ -255,12 +255,13 @@ body {
 }
 
 
-/* flex boxes */
+/* flex boxes section 2 home*/
 
 .flexbox-container{
     display: flex;
     justify-content: space-around;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -361,6 +362,11 @@ body {
     color:#102c57;
 }
 
+@media screen and (max-width:800px){
+    .flexbox-container{
+    padding: 5rem;
+    } 
+}
 /* section 3 */
 
 .section3{
@@ -435,6 +441,7 @@ body {
 .flexbox-container1{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .flexbox-item1 {
@@ -460,7 +467,7 @@ body {
     display: block;
     position: absolute;
     height: 0%;
-    width: 374px;
+    width: 400px;
     bottom: 40px;
     transition: height 0.5s ease-out;
     background: linear-gradient(to bottom, transparent 0%, black 100%);
@@ -482,7 +489,7 @@ body {
     display: block;
     position: absolute;
     height: 0%;
-    width: 374px;
+    width: 400px;
     bottom: 40px;
     transition: height 0.5s ease-out;
     background: linear-gradient(to bottom, transparent 0%, black 100%);
@@ -514,7 +521,7 @@ body {
     height: 500px;
   }
 
- /* Footer */
+/* Footer */
 
 footer{
     position: relative;
@@ -763,4 +770,159 @@ footer .btn {
     margin-right: 90px;
 }
 
+/*menu*/
+.menuheader{
+    position: relative;
+    width: 1920x;
+    height: 539px;
+    background-image: url('cakes/cake-section.png');
+    color: #ff0000;
+    background-size: cover;
+    text-align: justify;
+}
 
+.menuheader h1{
+    position: relative;
+    top: 35%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 100px;
+
+}
+
+/* flex boxes maenu*/
+
+.menu{
+    position: relative;
+    color: #102c57;
+    background-size: cover;
+    text-align: center;
+}
+
+.menu .header1{
+    background-color: white;
+    border-radius: 10px;
+    width: 550px;
+    position: relative;
+    margin-top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.menu .header1 h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.flexbox-container-menu{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.flexbox-item menu{
+    width: 200px;
+    margin: 20px;
+    background-color: #eadbc8;
+    text-align:justify;
+}
+
+.flexbox-item-1-menu {
+    width: 400px;
+    height: 680px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1); 
+}
+
+.flexbox-item-1-menu .btn {
+    position: relative;
+    top:5%;
+    left:10%;
+    background-color: #102c57;
+    color: white;
+    padding: 13px 35px;
+    border-radius:5px; 
+}
+
+.flexbox-item-1-menu .btn:hover {
+    background-color: #081b3c; 
+}
+
+.flexbox-item-2-menu {
+    width: 400px;
+    height: 680px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.flexbox-item-2-menu .btn {
+    position: relative;
+    top:5%;
+    left:10%;
+    background-color: #102c57;
+    color: white;
+    padding: 13px 35px;
+    border-radius:5px; 
+}
+
+.flexbox-item-2-menu .btn:hover {
+    background-color: #081b3c; 
+}
+
+.flexbox-item-3-menu {
+    width: 400px;
+    height: 680px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.flexbox-item-3-menu .btn {
+    position: relative;
+    top:5%;
+    left:10%;
+    background-color: #102c57;
+    color: white;
+    padding: 13px 35px;
+    border-radius:5px; 
+}
+
+.flexbox-item-3-menu .btn:hover {
+    background-color: #081b3c; 
+}
+
+.flexbox-container-menu img{
+    margin-bottom:3%;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+
+.flexbox-container-menu p {
+    font-size: 18px;
+    text-align: left;
+    margin-right:6%;
+    margin-left:10%;
+    color: black;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.flexbox-container-menu a h1{
+    margin-right:6%;
+    margin-left:10%;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    font-weight: 800;
+    line-height: 2.5;
+}
+
+.flexbox-container-menu h1:hover {
+    color:#102c57;
+}
+
+@media screen and (max-width:800px){
+    .flexbox-container-menu{
+    padding: 5rem;
+    } 
+}
