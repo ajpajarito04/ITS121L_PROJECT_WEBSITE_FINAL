@@ -22,27 +22,6 @@ section {
 
 /* Central button style */
 
-.btn {
-    position: absolute;
-    top: 64rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #102c57;
-    color: white;
-    font-weight: bold;
-    font-size: 17px;
-    padding: 30px 70px;
-    border-radius:5px;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-}
-
-.btn i {
-    margin-left: 10px;
-}
-
-.btn:hover {
-    background-color:#081b3c;
-}
 
 /* Header Style */
 
