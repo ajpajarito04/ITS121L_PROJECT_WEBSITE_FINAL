@@ -195,6 +195,12 @@ body {
     width: 30px;
 }
 
+@media screen and (max-width: 768px){
+    .slider{
+        height: 400px;
+    }
+}
+
 .slider .text-overlay {
     position: absolute;
     top: 75%; /* Adjust as needed */
@@ -356,20 +362,8 @@ body {
     color:#102c57;
 }
 
-@media screen and (max-width:2000px){
-    .section2{
-    padding: 5rem;
-    } 
-}
-
-@media screen and (max-width:1080px){
-    .section2{
-    padding: 5rem;
-    } 
-}
-
-@media screen and (max-width:640px){
-    .section2{
+@media screen and (max-width:800px){
+    .flexbox-container{
     padding: 5rem;
     } 
 }
@@ -474,7 +468,7 @@ body {
     position: absolute;
     height: 0%;
     width: 400px;
-    bottom: 67px;
+    bottom: 40px;
     transition: height 0.5s ease-out;
     background: linear-gradient(to bottom, transparent 0%, black 100%);
   }
@@ -496,7 +490,7 @@ body {
     position: absolute;
     height: 0%;
     width: 400px;
-    bottom: 67px;
+    bottom: 40px;
     transition: height 0.5s ease-out;
     background: linear-gradient(to bottom, transparent 0%, black 100%);
   }
@@ -517,33 +511,16 @@ body {
     display: block;
     position: absolute;
     height: 0%;
-    width: 400px;
-    bottom: 67px;
+    width: 374px;
+    bottom: 40px;
     transition: height 0.5s ease-out;
     background: linear-gradient(to bottom, transparent 0%, black 100%);
-}
+  }
   
   .flexbox-item1-3:hover:before {
     height: 500px;
-}
+  }
 
-@media screen and (max-width:2000px){
-    .section3{
-    padding: 5rem;
-    } 
-}
-
-@media screen and (max-width:1080px){
-    .section3{
-    padding: 5rem;
-    } 
-}
-
-@media screen and (max-width:640px){
-    .section3{
-    padding: 7rem;
-    } 
-}
 /* Footer */
 
 footer{
@@ -667,49 +644,8 @@ footer .btn {
 }
 
 /*about*/
-
-.info{
-    width: 1920px;
-    height: 1200 px;
-    font-size: 22px;
-    background:#ff0000;
-    color:white;
-    margin-right:auto; 
-    margin-left: auto;
-    padding: 50px;
-    text-align: justify;
-    font-family: sans-serif;
-}
-
-.info2{
-    width: 1920px;
-    height: px;
-    background:#0099ff;
-    position: relative;
-    top: 300px;
-    left: 50%;
-    transform: translate(-50%, -50%)
-}
-
-.info3{
-    width: 1920px;
-    height: 1200 px;
-    background:#25f900;
-    color:white;
-    margin-right:auto; 
-    margin-left: auto;
-    text-align: justify;
-    font-family: sans-serif;
-    
-}
-table{
-    top: 200px;
-    position: relative;
-    left:50%;
-    transform: translate(-50%, -50%)
-}
 .about {
-    margin-top: 0px; 
+    margin-top: 90px; 
     position: relative;
     height: 630px;
     max-width: 1920px;
@@ -744,15 +680,10 @@ table{
 }
 
 .about-content img {
-    position: absolute;
-    top:30px ;
-    bottom:0 ;
-    left: 70%;
-    right:0 ; 
-    left: 30xp;
     height: 530px;
     width: 500px;
-   
+    margin-left: 850px;
+    margin-top: -520px;
 }
 
 .about-bottom {
@@ -763,16 +694,13 @@ table{
 }
 
 .mission-container {
+    padding: 20px;
     width: 1000px;
     height: 200px;
-    background-color: #ffffff;
+    background-color: #dac0a3;
     border-radius: 20px;
     margin-top: 100px;
-    position: relative;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+    margin-left: 200px;
 }
 
 .mission-content h1 {
@@ -791,25 +719,20 @@ table{
 }
 
 .vision-container {
+    padding: 20px;
     width: 1000px;
     height: 200px;
-    background-color: #ffffff;
+    background-color: #dac0a3;
     border-radius: 20px;
     margin-top: 60px;
-    position: relative;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-   
+    margin-left: 200px;
 }
 
 .vision-content h1 {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-    color: black;
-    margin-left:40px;
+    color: black
 }
 
 .vision-content p {
@@ -823,15 +746,14 @@ table{
 
 .location-content {
     position: relative;
-    width: 550px;
-    height: 400px
+    margin-left: 850px;
+    margin-top: -400px;
+    margin-right: 150px;
 }
 
 .location-maps iframe {
-    /*
-    margin-left: 100px;
+    margin-left: 250px;
     margin-top: 80px;
-    */
     height: 400px;
     width: 550px;
 }
@@ -845,6 +767,7 @@ table{
     font-size: 18px;
     line-height: 1.5;
     font-weight: normal;
+    margin-right: 90px;
 }
 
 /*menu*/
@@ -1166,214 +1089,8 @@ table{
     margin-right:40px;
 }
 
-/* Review*/
-.review .box-conta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    font-family: 'Inter', sans-serif;
-}
-
-.review .box-conta .box {
-    flex: 1 1 30rem;
-    box-shadow: 0 .5rem 1.5 rem rgba(0, 0, 0, .1);
-    border-radius: .5rem;
-    padding: 3rem 2rem;
-    position: relative;
-    background-color: #eee;
-    transition: transform 0.2s ease;
-}
-
-.review .box-conta .box:hover {
-    animation: shake 0.5s;
-}
-
-@keyframes shake {
-    0% { transform: translateX(0); }
-    25% { transform: translateX(-5px); }
-    50% { transform: translateX(5px); }
-    75% { transform: translateX(-5px); }
-    100% { transform: translateX(0); }
-}
-
-.review .box-conta .box .fa-quote-right {
-    position: absolute;
-    bottom: 3rem;
-    right: 3rem;
-    font-size: 6rem;
-    color: #eee;
-}
-
-
-.review .box-conta .box .stars i{
-    color: gold;
-    font-size: 2rem;
-}
-
-.review .box-conta .box p{
-    color: black;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    padding-top: 2rem;
-}
-
-
-.review .box-conta .box .user h3{
-    font-size: 2rem;
-    color: black
-}
-
-.review .box-conta .box .user span{
-    font-size: 1.5rem;
-    color: #999;
-}
-
-/* Billing Form */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
-
-*{
-  font-family: 'Poppins', sans-serif;
-  margin:0; padding:0;
-  box-sizing: border-box;
-  outline: none; border:none;
-  text-transform: capitalize;
-  transition: all .2s linear;
-}
-
-.container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding:25px;
-  min-height: 90vh;
-}
-
-.container form{
-  padding:20px;
-  width:700px;
-  background: #fff;
-  box-shadow: 0 5px 10px rgba(0,0,0,.1);
-}
-
-.container form .row{
-  display: flex;
-  flex-wrap: wrap;
-  gap:15px;
-}
-
-.container form .row .col{
-  flex:1 1 250px;
-}
-
-.container form .row .col .title{
-  font-size: 20px;
-  color:#333;
-  padding-bottom: 5px;
-  text-transform: uppercase;
-}
-
-.container form .row .col .inputBox{
-  margin:15px 0;
-}
-
-.container form .row .col .inputBox span{
-  margin-bottom: 10px;
-  display: block;
-}
-
-.container form .row .col .inputBox input{
-  width: 100%;
-  border:1px solid #ccc;
-  padding:10px 15px;
-  font-size: 15px;
-  text-transform: none;
-}
-
-.container form .row .col .inputBox input:focus{
-  border:1px solid #000;
-}
-
-.container form .row .col .flex{
-  display: flex;
-  gap:15px;
-}
-
-.container form .row .col .flex .inputBox{
-  margin-top: 5px;
-}
-
-.container form .row .col .inputBox img{
-  height: 34px;
-  margin-top: 5px;
-  filter: drop-shadow(0 0 1px #000);
-}
-
-.container form .submit-btn{
-  width: 100%;
-  padding:12px;
-  font-size: 17px;
-  background: #102c57;
-  color:#fff;
-  margin-top: 5px;
-  cursor: pointer;
-}
-
-.container form .submit-btn:hover{
-  background: #081b3c;
-}
-
-/* Contact Form */
-.contact .row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    align-items: center;
-}
-
-.contact .row form {
-    flex: 1 1 40rem;
-    padding: 2rem 2.5rem;
-    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
-    border: .1rem solid rgba(0, 0, 0, .1);
-    background: #fff;
-    border-radius: .5rem;
-}
-
-.contact .row .image {
-    flex: 1 1 40rem;
-}
-
-.contact .row .image .img {
-    width: 100%;
-}
-
-.contact .row form .box {
-    padding: 1rem;
-    font-size: 1.7rem;
-    color: #333;
-    text-transform: none;
-    border: .1rem solid rgba(0, 0, 0, .1);
-    border-radius: .5rem;
-    margin: .7rem 0;
-    width: 100%;
-}
-
-.contact .row form .box:focus{
-    border-color: var(--pink);
-}
-
-.contact .row form textarea{
-    height: 15rem;
-    resize: none;
-}
-
-.btn2 {
-    display: inline-block;
-    margin-top: 1rem;
-    border-radius: 5rem;
-    background: #102c57;
-    color: #fff;
-    padding: .9rem 3.5rem;
-    cursor: pointer;
-    font-size: 1.7rem;
+@media screen and (max-width:640px){
+    .flexbox-container-menu{
+    padding: 5rem;
+    } 
 }
