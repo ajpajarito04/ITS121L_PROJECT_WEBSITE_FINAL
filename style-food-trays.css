@@ -775,15 +775,13 @@ footer .btn {
     position: relative;
     max-width: 1920px;
     height: 539px;
-    background-image: url('cakes/cake-section.png');
+    background-image: url('food trays/food trays-section.png');
     color: #ff0000;
     background-size: cover;
     text-align: justify;
     margin-right:auto;
     margin-left:auto;
 }
-
-
 
 .menuheader img{
     
@@ -876,7 +874,7 @@ footer .btn {
 
 .flexbox-item-2-menu .btn {
     position: relative;
-    top:8%;
+    top:5%;
     left:10%;
     background-color: #102c57;
     color: white;
