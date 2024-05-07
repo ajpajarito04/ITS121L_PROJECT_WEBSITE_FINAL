@@ -48,7 +48,7 @@ section {
 /* Header Style */
 
 header {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -56,9 +56,8 @@ header {
     padding: 1.3rem 20%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     z-index: 900;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.100);
+    justify-content: center;
 }
 
 header a img {
@@ -525,6 +524,7 @@ footer{
     background: #102c57;
     padding: 2rem 6%;
     height: 200px;
+
 }
 
 .footer-content {
@@ -534,11 +534,13 @@ footer{
     font-size: medium;
     flex-wrap: wrap;
     flex: 5;
+    justify-content: center;
 }
 
 .footer-content a img {
    width: 250px;
    margin-top: 10px;
+   margin-left: -290px;
 }
 
 .footer-content .header1 h1 {
@@ -625,7 +627,7 @@ footer{
 
 footer .btn {
     position: absolute;
-    margin-left: 47rem;
+    margin-left: 54rem;
     margin-top: -55rem;
     background-color: #dac0a3;
     color: white;
