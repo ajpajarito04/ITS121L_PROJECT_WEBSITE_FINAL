@@ -280,7 +280,7 @@ body {
 
 .flexbox-item-1 .btn {
     position: relative;
-    top:5%;
+    top:10%;
     left:10%;
     background-color: #102c57;
     color: white;
@@ -855,7 +855,7 @@ footer .btn {
 
 .flexbox-item-1-menu .btn {
     position: relative;
-    top:5%;
+    top:12%;
     left:10%;
     background-color: #102c57;
     color: white;
@@ -876,7 +876,7 @@ footer .btn {
 
 .flexbox-item-2-menu .btn {
     position: relative;
-    top:5%;
+    top:8%;
     left:10%;
     background-color: #102c57;
     color: white;
@@ -898,7 +898,7 @@ footer .btn {
 
 .flexbox-item-3-menu .btn {
     position: relative;
-    top:6rem;
+    top:12%;
     left:10%;
     background-color: #102c57;
     color: white;
@@ -922,7 +922,7 @@ footer .btn {
 
 .flexbox-item-4-menu .btn {
     position: relative;
-    top:5%;
+    top:8%;
     left:10%;
     background-color: #102c57;
     color: white;

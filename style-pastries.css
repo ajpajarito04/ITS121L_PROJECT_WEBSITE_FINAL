@@ -22,7 +22,6 @@ section {
 
 /* Central button style */
 
-
 .btn {
     position: absolute;
     top: 64rem;
@@ -855,7 +854,7 @@ footer .btn {
 
 .flexbox-item-1-menu .btn {
     position: relative;
-    top:5%;
+    top:8%;
     left:10%;
     background-color: #102c57;
     color: white;
@@ -876,7 +875,7 @@ footer .btn {
 
 .flexbox-item-2-menu .btn {
     position: relative;
-    top:5%;
+    top:8%;
     left:10%;
     background-color: #102c57;
     color: white;
@@ -898,7 +897,7 @@ footer .btn {
 
 .flexbox-item-3-menu .btn {
     position: relative;
-    top:6rem;
+    top:4.5%;
     left:10%;
     background-color: #102c57;
     color: white;
@@ -922,7 +921,7 @@ footer .btn {
 
 .flexbox-item-4-menu .btn {
     position: relative;
-    top:5%;
+    top:9%;
     left:10%;
     background-color: #102c57;
     color: white;
@@ -966,7 +965,7 @@ footer .btn {
 
 .flexbox-item-6-menu .btn {
     position: relative;
-    top:5%;
+    top:9%;
     left:10%;
     background-color: #102c57;
     color: white;
