@@ -1088,6 +1088,39 @@ footer .btn {
     margin-right:40px;
 }
 
+/*flex-box-hover*/
+.flexbox-item-1-menu:hover{
+    transform:scale(1.1);
+}
+
+.flexbox-item-2-menu:hover{
+    transform:scale(1.1);
+}
+.flexbox-item-3-menu:hover{
+    transform:scale(1.1);
+}
+
+.flexbox-item-4-menu:hover{
+    transform:scale(1.1);
+}
+
+.flexbox-item-5-menu:hover{
+    transform:scale(1.1);
+}
+.flexbox-item-6-menu:hover{
+    transform:scale(1.1);
+}
+.flexbox-item-7-menu:hover{
+    transform:scale(1.1);
+}
+.flexbox-item-8-menu:hover{
+    transform:scale(1.1);
+}
+.flexbox-item-9-menu:hover{
+    transform:scale(1.1);
+}
+
+
 @media screen and (max-width:640px){
     .flexbox-container-menu{
     padding: 5rem;
