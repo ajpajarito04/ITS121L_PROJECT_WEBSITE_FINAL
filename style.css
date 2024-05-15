@@ -738,7 +738,8 @@ footer .btn {
     margin-left: auto;
     padding: 20px;
     text-align: justify;
-    font-family: 'Inter', sans-serif
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 30px;
 }
 
 
@@ -855,7 +856,8 @@ footer .btn {
    }
    .flex-nav-item-2 p{
     
-    font-size:40px;
+    font-size:30px;
+    text-align: justify;
    }
 
    
@@ -877,10 +879,11 @@ footer .btn {
     font-size: 34px; 
     font-weight: bold;
     line-height: 1.5;
+    
 }
 
 .about-content h2 {
-    color:#102c57;
+    color:black;
     font-size: 34px;
     font-weight: normal;
     line-height: 1.5; 
@@ -890,25 +893,21 @@ footer .btn {
     color: black; 
     font-size: 16px; 
     line-height: 1.5; 
-    margin-right: 700px;
+    margin-right: 1000px;
     text-align: justify;
 }
 
 .about-content img {
     position: absolute;
-    top:30px ;
+    top:55px ;
     bottom:0 ;
-    left: 70%;
+    left: 47%;
     right:0 ; 
     left: 30xp;
     height: 530px;
     width: 500px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1)
    
-}
-
-.about-content img:hover{
-    transform:scale(1.1);
 }
 
 .about-bottom {
@@ -1432,14 +1431,22 @@ footer .btn {
     margin-left:auto;
 }
 
-.reviewheader h1{
-    position: relative;
-    top: 30%;
-    color: white;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 100px;
+.reviewheader img{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
 
+.contactheader img{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
 }
 
 .review .box-conta {
